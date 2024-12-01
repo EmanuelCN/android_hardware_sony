@@ -1,0 +1,9 @@
+allow system_app {
+    hal_audio_default
+    hal_camera_default
+    hal_health_default
+    hal_power_default
+    hal_memtrack_default
+    vendor_hal_gnss_qti
+    vendor_hal_keymint_qti
+}:binder { call };
