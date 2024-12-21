@@ -4,6 +4,12 @@ allow system_app {
     hal_health_default
     hal_power_default
     hal_memtrack_default
+    hal_sensors_default
+    hal_thermal_default
+    hal_vibrator_default
+    hal_wifi_default
+    hal_wifi_default
+    vendor_hal_usb_qti
     vendor_hal_gnss_qti
     vendor_hal_keymint_qti
 }:binder { call };
