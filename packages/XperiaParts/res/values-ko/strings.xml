@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_setting_summary">다양한 디스플레이 설정 조정</string>
+    <string name="cm_dialog_message">크리에이터 모드를 켜면 다른 화이트 밸런스 및 색상 설정이 무시됩니다!</string>
+    <string name="cm_checkbox_show_once">다시 보지 않기</string>
+</resources>

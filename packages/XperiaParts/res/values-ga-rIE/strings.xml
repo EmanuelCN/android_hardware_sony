@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_setting_header">Socruithe taispeána ardleibhéil</string>
+    <string name="display_setting_summary">Coigeartaigh socruithe taispeána éagsúla</string>
+    <string name="cm_display_header">Socruithe mód cruthaitheora</string>
+    <string name="cm_switch_title">Mód cruthaitheora</string>
+    <string name="cm_switch_description">Cumasaigh an gamut dathanna BT.2020 agus an dath 10-giotán</string>
+    <string name="cm_footer_string">Sáróidh mód an chruthaitheora cumraíochtaí calabrúcháin datha LiveDisplay.</string>
+    <string name="cm_dialog_title">Mód cruthaitheora</string>
+    <string name="cm_dialog_message">Má chumasaítear mód cruthaitheora, déanfar socruithe cothromaíochta bán agus dath a fhorscríobh!</string>
+    <string name="cm_checkbox_show_once">Ná taispeáin an teachtaireacht seo arís</string>
+</resources>

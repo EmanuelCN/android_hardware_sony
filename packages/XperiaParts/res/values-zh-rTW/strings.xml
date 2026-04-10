@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_setting_summary">調整各種顯示設定</string>
+    <string name="cm_dialog_message">啟用導演模式將會覆寫白平衡與色彩設定！</string>
+    <string name="cm_checkbox_show_once">不要再顯示此訊息</string>
+</resources>

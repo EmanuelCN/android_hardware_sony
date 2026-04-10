@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_setting_summary">Upravit různá nastavení zobrazení</string>
+    <string name="cm_dialog_message">Zapnutím režimu tvůrce přepíšete nastavení vyvážení bílé a dalších barev.</string>
+    <string name="cm_checkbox_show_once">Tuto zprávu příště nezobrazovat</string>
+</resources>

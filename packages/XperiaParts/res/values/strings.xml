@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">XperiaParts</string>
+
+    <!-- Display related settings -->
+    <string name="display_setting_header">Advanced display settings</string>
+    <string name="display_setting_summary">Adjust various display settings</string>
+
+    <!-- Creator mode related settings -->
+    <string name="cm_display_header">Creator mode settings</string>
+    <string name="cm_switch_title">Creator mode</string>
+    <string name="cm_switch_description">Enable the BT.2020 color gamut and 10-bit color</string>
+    <string name="cm_footer_string">LiveDisplay\'s color calibration configs will be overridden by the creator mode.</string>
+
+    <!-- Dialog related strings -->
+    <string name="cm_dialog_title">Creator mode</string>
+    <string name="cm_dialog_message">Enabling creator mode will overwrite white balance and color settings!</string>
+    <string name="cm_checkbox_show_once">Don\'t show this message again</string>
+</resources>

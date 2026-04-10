@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_setting_header">Gelişmiş ekran ayarları</string>
+    <string name="display_setting_summary">Çeşitli ekran ayarlarını değiştirin</string>
+    <string name="cm_display_header">Yaratıcı modu ayarları</string>
+    <string name="cm_switch_title">Yaratıcı modu</string>
+    <string name="cm_switch_description">BT.2020 renk gamını ve 10 bit renk desteğini etkinleştir</string>
+    <string name="cm_footer_string">LiveDisplay\'in renk kalibrasyon ayarları, yaratıcı modu tarafından geçersiz kılınacaktır.</string>
+    <string name="cm_dialog_title">Yaratıcı modu</string>
+    <string name="cm_dialog_message">Oluşturucu modu etkinleştirmek, beyaz denge ve renk ayarlarının üstüne yazacaktır!</string>
+    <string name="cm_checkbox_show_once">Bu mesajı bir daha gösterme</string>
+</resources>

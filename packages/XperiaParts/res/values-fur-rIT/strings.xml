@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_setting_summary">Regole altris impostazions dal schermi</string>
+    <string name="cm_dialog_message">La ativazion de modalitât creadôr e sorescrivarà il belançament dal blanc e lis impostazions dal colôr!</string>
+    <string name="cm_checkbox_show_once">No sta mostrâ plui chest messaç</string>
+</resources>
