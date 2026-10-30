@@ -1,0 +1,4 @@
+# Register the ServiceTracker AIDL service.
+binder_use(vendor_hal_srvctracker_default)
+hal_attribute_service(vendor_hal_srvctracker, vendor_hal_servicetrackeraidl_service)
+binder_call(vendor_hal_srvctracker_server, servicemanager)

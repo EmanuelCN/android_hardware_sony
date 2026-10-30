@@ -76,3 +76,6 @@ genfscon sysfs /devices/platform/soc/9c0000.qcom,qupv3_i2c_geni_se/984000.i2c/i2
 # UIM control node
 genfscon sysfs /class/sony_ext_uim_ctrl u:object_r:sysfs_uim_ctrl:s0
 genfscon sysfs /devices/virtual/sony_ext_uim_ctrl/device/ u:object_r:sysfs_uim_ctrl:s0
+# UFS boost controls
+genfscon sysfs /devices/platform/soc/1d84000.ufshc/qcom/boost_monitor_timer_ms u:object_r:vendor_sysfs_ufs:s0
+genfscon sysfs /devices/platform/soc/1d84000.ufshc/qcom/boost_min_threshold u:object_r:vendor_sysfs_ufs:s0

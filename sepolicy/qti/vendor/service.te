@@ -6,3 +6,7 @@ type hal_secd_service, service_manager_type, hal_service_type;
 type hal_spc_service, service_manager_type, hal_service_type;
 type hal_swiqi_service, service_manager_type, hal_service_type;
 type somc_aidl_radio_service, service_manager_type, hal_service_type;
+type vendor_hal_poweroptservice_service, hal_service_type, protected_service, service_manager_type;
+type vendor_hal_servicetrackeraidl_service, hal_service_type, protected_service, service_manager_type;
+type vendor_hal_MemHal_service, hal_service_type, protected_service, service_manager_type;
+type vendor_hal_qspmhal_service, hal_service_type, service_manager_type;

@@ -1,0 +1,49 @@
+# Register the Perf2 AIDL service.
+binder_use(vendor_hal_perf_default)
+hal_attribute_service(vendor_hal_perf, vendor_hal_perf2_service)
+binder_call(vendor_hal_perf_server, servicemanager)
+
+# Allow Perf to communicate with Poweropt and MemHal.
+r_dir_file(vendor_hal_perf_default, system_server)
+binder_call(vendor_hal_perf_default, vendor_hal_poweroptservice)
+hal_client_domain(vendor_hal_perf_default, vendor_hal_MemHal)
+dontaudit vendor_hal_perf_default default_android_service:service_manager find;
+
+# Allow additional clients to use the Perf HAL.
+hal_client_domain(hal_graphics_composer_default, vendor_hal_perf)
+hal_client_domain(lmkd, vendor_hal_perf)
+hal_client_domain(vendor_qtelephony, vendor_hal_perf)
+
+# Grant Perf access to the runtime resources it uses.
+allow vendor_hal_perf_default configfs:dir { search open read };
+allow vendor_hal_perf_default configfs:file { open write read };
+allow vendor_hal_perf_default self:capability { sys_nice setuid sys_admin };
+allow vendor_hal_perf_default surfaceflinger:dir search;
+allow vendor_hal_perf_default surfaceflinger:file { open read };
+binder_call(vendor_hal_perf_default, surfaceflinger)
+
+# Read performance data and control UFS boost parameters.
+allow vendor_hal_perf {
+    sysfs_suspend_stats
+    vendor_sysfs_graphics
+    proc_stat
+    proc_uptime
+    sysfs_leds
+    vendor_sysfs_ufs
+}:dir r_dir_perms;
+
+allow vendor_hal_perf {
+    proc_stat
+    proc_uptime
+    vendor_sysfs_ufs
+}:file rw_file_perms;
+
+allow vendor_hal_perf {
+    sysfs_leds
+    vendor_sysfs_graphics
+    vendor_sysfs_ufs
+}:lnk_file r_file_perms;
+
+allow vendor_hal_perf sysfs_suspend_stats:file r_file_perms;
+
+allow vendor_perfservice vendor_hal_perf2_service:service_manager find;

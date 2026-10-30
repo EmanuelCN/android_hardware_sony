@@ -1,0 +1,7 @@
+# Register the QSPM AIDL service.
+hal_attribute_service(vendor_hal_qspmhal, vendor_hal_qspmhal_service)
+binder_call(vendor_hal_qspmhal_server, servicemanager)
+
+# Allow QSPM to manage its data files.
+allow vendor_hal_qspmhal_default vendor_qspmhal_data_file:dir { add_name create getattr open read remove_name unlink write };
+allow vendor_hal_qspmhal_default vendor_qspmhal_data_file:file { open write };

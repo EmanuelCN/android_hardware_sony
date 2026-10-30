@@ -11,3 +11,7 @@ vendor.somc.hardware.aidlradio.ISomcHook/somchook0                 u:object_r:so
 vendor.somc.hardware.aidlradio.ISomcHook/somchook1                 u:object_r:somc_aidl_radio_service:s0
 vendor.somc.hardware.security.aidlsecd.IDeviceSecurity/default     u:object_r:hal_secd_service:s0
 vendor.somc.hardware.videoeffect.IAidlSwiqi/default                u:object_r:hal_swiqi_service:s0
+vendor.qti.hardware.power.powermodule.IPowerModule/default         u:object_r:vendor_hal_poweroptservice_service:s0
+vendor.qti.hardware.servicetrackeraidl.IServicetracker/default     u:object_r:vendor_hal_servicetrackeraidl_service:s0
+vendor.qti.MemHal.IMemHal/default                                  u:object_r:vendor_hal_MemHal_service:s0
+vendor.qti.qspmhal.IQspmhal/default                                u:object_r:vendor_hal_qspmhal_service:s0
